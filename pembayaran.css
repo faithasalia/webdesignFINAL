@@ -1,0 +1,114 @@
+body{
+    width: 100%;
+    height: 90vh;
+    background-image: url(homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.navbar{
+    background: #f7f5f2;
+    font-family: 'Playpen Sans', cursive;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: rgb(252, 236, 192);
+    border-radius: 10px;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+    
+}
+#navbar{
+    background-color:rgb(252, 236, 192) ;
+
+}
+#logo img{
+    border-radius: 50px;
+    margin-left: 50px;
+  
+}
+.navbar-nav{
+margin-left: 50px;
+}
+.nav-item .nav-link{
+color: black;
+margin-left: 10px;
+font-weight: bold;
+transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background:#f7f5f2;
+    border-radius: 5px;
+}
+#navbar form button{
+    background: rgb(231, 213, 164);
+    color: white;
+    border: 1px solid rgb(231, 213, 164);
+}
+
+.bank{
+    background-color: rgba(252, 236, 192, 0.726);
+    border-radius: 8px;
+    position: relative;
+    width: 500px;
+    height: 135px;
+    margin: 50px auto 10px auto;
+    padding: 15px 0 0 15px;
+    box-shadow: 0 5px 7px rgba(128, 128, 128, 0.781);
+}
+
+.bri img{
+    border-radius: 8%;
+    width: 100px;
+}
+.mandiri img{
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    border-radius: 8%;
+    width: 100px;
+}
+.bca img{
+    position: absolute;
+    left: 47%;
+    top: 40%;
+    border-radius: 8%;
+    width: 100px;
+}
+
+.emoney{
+    background-color: rgba(252, 236, 192, 0.726);
+    border-radius: 8px;
+    position: relative;
+    width: 500px;
+    height: 135px;
+    margin: 50px auto 10px auto;
+    padding: 15px 0 0 15px;
+    box-shadow: 0 5px 7px rgba(128, 128, 128, 0.781);
+}
+
+.ovo img{
+    border-radius: 8%;
+    width: 100px;
+}
+.dana img{
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    border-radius: 8%;
+    width: 105px;
+}
+.gopay img{
+    position: absolute;
+    left: 48%;
+    top: 40%;
+    border-radius: 8%;
+    width: 103px;
+}
+p{
+    font-family: 'Playpen Sans', cursive;
+}

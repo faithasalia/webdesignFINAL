@@ -1,0 +1,162 @@
+
+
+body{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: rgb(252, 236, 192);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar{
+    width: 10px;
+}
+#navbar{
+    background-color: rgb(252, 236, 192);
+    top: -10px;
+}
+#logo img{
+    border-radius: 50px;
+    margin-left: 50px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: black;
+    font-family: 'Playpen Sans', cursive;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+}
+#navbar form button{
+    background: rgb(231, 213, 164);
+    color: white;
+    border: 1px solid rgb(231, 213, 164);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.content{
+
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #424144;
+    height: 100vh;
+}
+.content h1{
+    font-weight: 100;
+    font-family: 'Playpen Sans', cursive;
+    font-variant: normal;
+    font-size: 25px;
+    position: relative;
+    margin-top: -250px;
+    font-style: bold;
+
+}
+.content p{
+    font-size: 20px;
+    position: relative;
+}
+.content button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    position: relative;
+    border: none;
+    background: rgb(231, 213, 164);
+    color: black;
+    font-style: bold;
+    font-weight: 100;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pheading{
+    font-size: 25px;
+    font-family: 'Playpan Sans', cursive;
+    font-style: bold;
+    text-align: center;
+    margin: 50px 0;
+    color: #424144;
+}
+
+
+.sec{
+    padding: 10px 5px;
+    position: relative;
+    left: 0.5%;
+}
+.products{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.products .card{
+    width: 310px;
+    background: #f5f5f5;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+.products .card img{
+    height: 250px;
+    width: 100%;
+}
+.products .card .desc{
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+.products .card .title{
+    font-weight: 900;
+    font-size: 20px;
+    color: #424144;
+    padding: 0 20px;
+}
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.products .card .box .price{
+    color: rgb(138, 126, 91);
+    font-size: 20px;
+    font-weight: bold;
+}
+.products .card .box .btn{
+    font-size: 13px;
+    color: rgb(138, 126, 91);
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid rgb(138, 126, 91);
+    border-radius: 20px;
+}
+.products .card .box .btn:hover {
+    cursor: pointer;
+    background-color: rgb(138, 126, 91);
+    color: white;
+}
+@media(max-width: 991.5px) {
+    .col-lg-4 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
